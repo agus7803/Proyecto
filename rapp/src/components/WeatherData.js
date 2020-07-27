@@ -8,7 +8,7 @@ import {
 const WeatherData = () => ( 
     <div>
         <WeatherTemperature 
-            temperature= {"20"} 
+            temperature= {20} 
             weatherState={SUN}
         />
         <WeatherExtraInfo 

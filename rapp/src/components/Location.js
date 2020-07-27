@@ -1,8 +1,8 @@
 import React from 'react';
+import PorpTypes from 'prop-types';
 
 const Location = ({ city }) => {
     //Destructuring en city
-
     return (
         <div>
             <h1>
@@ -10,6 +10,11 @@ const Location = ({ city }) => {
             </h1>
         </div>
     );
+
+};
+
+Location.porpTypes = {
+    city: PropTypes.string.isRequired,
 
 };
 

@@ -35,8 +35,8 @@ const WeatherTemperature = ({temperature, weatherState }) => (
 );
 
 WeatherTemperature.porpTypes = {
-    temperature: PorpTypes.number,
-    weatherState: PorpTypes.string,
+    temperature: PorpTypes.number.isRequired,
+    weatherState: PorpTypes.string.isRequired,
 };
 
 export default WeatherTemperature;
