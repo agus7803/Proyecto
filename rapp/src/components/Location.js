@@ -14,7 +14,7 @@ const Location = ({ city }) => {
 };
 
 Location.porpTypes = {
-    city: PropTypes.string.isRequired,
+    city: PorpTypes.string.isRequired,
 
 };
 

@@ -9,8 +9,8 @@ const WeatherExtraInfo = ({ humidity, wind}) => (
 
 );
 WeatherExtraInfo.porpTypes = {
-    humidity: PropTypes.number.isRequired,
-    wind: PropTypes.string.isRequired,
+    humidity: PorpTypes.number.isRequired,
+    wind: PorpTypes.string.isRequired,
 
 };
 
