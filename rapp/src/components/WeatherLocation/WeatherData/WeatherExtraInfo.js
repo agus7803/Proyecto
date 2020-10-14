@@ -3,8 +3,8 @@ import PorpTypes from 'prop-types';
 import './styles.css';
 const WeatherExtraInfo = ({ humidity, wind}) => (
     <div className= "weatherExtraInfoCont"> 
-        <samp>{ `${humidity} % - ` }</samp>
-        <samp>{ `${wind} wind` }</samp>
+        <samp className = "extraInfoText">{ `Humedad: ${humidity} % - ` }</samp>
+        <samp className = "extraInfoText">{ `Vientos: ${wind}` }</samp>
     </div>
 
 );
