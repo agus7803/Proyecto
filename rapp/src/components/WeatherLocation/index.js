@@ -6,7 +6,6 @@ import getUrlWeatherByCity from './../../services/getUrlWeatherByCity';
 import Location from './Location';
 import WeatherData from './WeatherData';
 import './styles.css';
-import { checkPropTypes } from 'prop-types';
 
 
 

@@ -1,8 +1,8 @@
 .locationCont {
-    width: 100px;
+    width: 1000px;
     height: 35px;
     text-align: left;
-    color: purple;
+    color: rgb(4, 197, 165);
     line-height: 35px;
 }
 .locationCont h1 {
