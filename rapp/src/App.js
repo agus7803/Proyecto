@@ -11,7 +11,6 @@ const cities = [
     'Buenos Aires,ar',
 ]
 
-
 function App() {
     return ( <
         div className = "App" >
